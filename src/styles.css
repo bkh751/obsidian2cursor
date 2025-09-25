@@ -1,0 +1,22 @@
+/* Obsidian2Cursor 플러그인 스타일 */
+
+.obsidian2cursor-notice {
+  color: var(--text-accent);
+  font-weight: 500;
+}
+
+.obsidian2cursor-error {
+  color: var(--text-error);
+  font-weight: 500;
+}
+
+/* 설정 탭 스타일 */
+.setting-item-description {
+  color: var(--text-muted);
+  font-size: 0.9em;
+}
+
+.setting-item-control input[type="text"] {
+  width: 100%;
+  max-width: 400px;
+}

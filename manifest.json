@@ -1,0 +1,12 @@
+{
+	"id": "obsidian2cursor",
+	"name": "Obsidian2Cursor",
+	"version": "1.0.0",
+	"minAppVersion": "0.15.0",
+	"description": "Obsidian에서 Cursor로 파일과 프로젝트를 여는 플러그인",
+	"author": "David Back",
+	"authorUrl": "https://github.com/bkh751",
+	"fundingUrl": "",
+	"isDesktopOnly": true
+}
+
