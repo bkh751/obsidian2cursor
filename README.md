@@ -4,8 +4,8 @@ Obsidian에서 Cursor로 파일과 프로젝트를 여는 플러그인입니다.
 
 ## ✨ 기능
 
-- **Alt + O**: 현재 보고 있는 Obsidian 문서를 Cursor에서 열기 (커서 위치 유지)
-- **Alt + P**: 현재 Obsidian vault를 Cursor 프로젝트로 열기 (커서 위치 유지)
+- **Alt + shitf + O**: 현재 보고 있는 Obsidian 문서를 Cursor에서 열기 (커서 위치 유지)
+- **Alt + shift + P**: 현재 Obsidian vault를 Cursor 프로젝트로 열기 (커서 위치 유지)
 - 커서 위치 자동 감지 및 전달
 - 설정 가능한 Cursor 실행 파일 경로
 
