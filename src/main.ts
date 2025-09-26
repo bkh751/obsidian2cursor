@@ -19,19 +19,17 @@ export default class Obsidian2CursorPlugin extends Plugin {
   async onload() {
     await this.loadSettings();
 
-    // Alt+Shift+O: 현재 파일을 Cursor에서 열기
+    // 현재 파일을 Cursor에서 열기
     this.addCommand({
       id: 'open-current-file-in-cursor',
       name: '현재 파일을 Cursor에서 열기',
-      hotkeys: [{ modifiers: ['Alt', 'Shift'], key: 'o' }],
       callback: () => this.openCurrentFileInCursor()
     });
 
-    // Alt+Shift+P: 현재 vault를 Cursor 프로젝트로 열기
+    // 현재 vault를 Cursor 프로젝트로 열기
     this.addCommand({
       id: 'open-vault-in-cursor',
       name: '현재 vault를 Cursor 프로젝트로 열기',
-      hotkeys: [{ modifiers: ['Alt', 'Shift'], key: 'p' }],
       callback: () => this.openVaultInCursor()
     });
 

@@ -46,13 +46,11 @@ var Obsidian2CursorPlugin = class extends import_obsidian.Plugin {
     this.addCommand({
       id: "open-current-file-in-cursor",
       name: "\uD604\uC7AC \uD30C\uC77C\uC744 Cursor\uC5D0\uC11C \uC5F4\uAE30",
-      hotkeys: [{ modifiers: ["Alt", "Shift"], key: "o" }],
       callback: () => this.openCurrentFileInCursor()
     });
     this.addCommand({
       id: "open-vault-in-cursor",
       name: "\uD604\uC7AC vault\uB97C Cursor \uD504\uB85C\uC81D\uD2B8\uB85C \uC5F4\uAE30",
-      hotkeys: [{ modifiers: ["Alt", "Shift"], key: "p" }],
       callback: () => this.openVaultInCursor()
     });
     this.addSettingTab(new Obsidian2CursorSettingTab(this.app, this));
